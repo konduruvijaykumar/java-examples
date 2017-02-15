@@ -3,6 +3,10 @@ package org.pjay;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 
+/**
+ * @author vijayk
+ *
+ */
 public class SampleController {
 	
 	@FXML
