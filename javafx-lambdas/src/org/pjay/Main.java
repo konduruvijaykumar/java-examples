@@ -10,6 +10,9 @@ import javafx.fxml.FXMLLoader;
  * @author vijayk
  *
  */
+// https://www.eclipse.org/efxclipse/install.html
+// http://www.eclipse.org/efxclipse/index.html
+// http://download.java.net/general/javafx/eclipse/tutorial.html
 public class Main extends Application {
 	@Override
 	public void start(Stage primaryStage) {
