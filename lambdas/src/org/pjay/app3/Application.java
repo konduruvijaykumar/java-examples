@@ -52,7 +52,12 @@ public class Application {
 		// - Lambda expression's parameter string2 cannot redeclare another local variable defined in an enclosing scope.
 		// - Lambda expression's parameter string1 cannot redeclare another local variable defined in an enclosing scope.
 		//LowerConcatString lcs = (string1, string2) -> string1.toLowerCase()+string1.toLowerCase();
-		LowerConcatString lcs = (str1, str2) -> str1.toLowerCase()+str2.toLowerCase();
+		LowerConcatString lcs = (str1, str2) -> {
+			String s = str1.toLowerCase()+str2.toLowerCase();
+			return s;
+		};
+		// Below commented code also works fine, showing another way where return has to be used when more than one statement is present in code block 
+		//LowerConcatString lcs = (str1, str2) -> str1.toLowerCase()+str2.toLowerCase();
 		lowerCase = upperOrLowerConcatStrings(lcs, string1, string2);
 		System.out.println("Lower Case String:: " + lowerCase);
 		
