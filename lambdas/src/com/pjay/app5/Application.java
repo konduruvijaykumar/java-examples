@@ -45,7 +45,7 @@ public class Application {
 		
 		employees.forEach(employee -> {
 			System.out.println("\nEmp Name:: " + employee.getName());
-			System.out.println("\nEmp Age:: " + employee.getAge());
+			System.out.println("Emp Age:: " + employee.getAge());
 		});
 		
 		/**
