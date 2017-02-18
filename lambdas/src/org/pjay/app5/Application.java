@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.pjay.app5;
+package org.pjay.app5;
 
 import java.util.ArrayList;
 import java.util.List;
