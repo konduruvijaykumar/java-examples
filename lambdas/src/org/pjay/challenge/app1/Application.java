@@ -16,6 +16,7 @@ public class Application {
 	/**
 	 * @param args
 	 */
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		String input = "1234567890";
 		// Challenge #1: Covert below code to lambda
@@ -79,6 +80,7 @@ public class Application {
 	}
 	
 	// Challenge #2: Covert below code to lambda
+	@SuppressWarnings("unused")
 	private static String everySecondChar(String source){
 		StringBuilder builder = new StringBuilder();
 		for (int i = 0; i < source.length(); i++) {
