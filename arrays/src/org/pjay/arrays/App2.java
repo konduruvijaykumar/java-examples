@@ -23,6 +23,8 @@ public class App2 {
 		
 		// Let's sort the array to avoid checking after target sum in iterating
 		Arrays.sort(numbers);
+		
+		// TODO: Code Logic pending
 
 	}
 
