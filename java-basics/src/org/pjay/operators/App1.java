@@ -76,6 +76,10 @@ public class App1 {
 		boolean isCar = false;
 		if (isCar == true)
 			System.out.println("This is not supposed to happen");
+		
+		// Imp: tricky
+		if(isCar = true)
+			System.out.println("This is happening b'coz of isCar is assigned value and that is returned to execute if condition");
 
 		isCar = true;
 		boolean wasCar = isCar ? true : false;
