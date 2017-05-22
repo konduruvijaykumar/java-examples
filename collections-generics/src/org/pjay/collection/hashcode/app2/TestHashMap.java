@@ -18,6 +18,7 @@ import java.util.Map;
  * For this reason HashMap doesn't provide objects in insertion order and gives data based on index and collision objects in same index 
  * 
  * https://github.com/konduruvijaykumar/java-examples/blob/master/collections-generics/org.pjay.collection.hashcode.app2.HashMap.pdf
+ * http://www.javarticles.com/2012/06/linkedhashmap.html
  */
 public class TestHashMap {
 
