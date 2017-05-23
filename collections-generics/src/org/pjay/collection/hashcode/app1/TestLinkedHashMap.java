@@ -9,6 +9,11 @@ import java.util.Map;
 /**
  * @author vijayk
  *
+ * http://www.javarticles.com/2012/06/linkedhashmap.html
+ * http://www.informit.com/articles/article.aspx?p=368648&seqNum=2
+ * https://stackoverflow.com/questions/4980757/how-do-hashtables-deal-with-collisions
+ * http://www.javamadesoeasy.com/2015/02/linkedhashmap-custom-implementation.html
+ * https://stackoverflow.com/questions/26311776/why-iteration-through-double-linked-buckets-in-linkedhashmap-is-faster-than-iter
  */
 public class TestLinkedHashMap {
 	
